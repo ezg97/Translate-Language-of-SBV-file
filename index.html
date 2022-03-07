@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Japanese Translator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Translate to Japanese</h1>
+    <br>
+    <div class="container">
+        <div class="side">
+           <div class="step_one outline">
+                Step One ->
+            </div>
+
+            <div class="step_two outline">
+                Step Two ->
+            </div>
+
+            <div class="step_three outline">
+                Step Three ->
+            </div>
+
+            <div class="step_four outline">
+                Step Four ->
+            </div>
+
+            
+        </div>
+
+        <div class="main">
+            <div class="file_div step_one">
+                <label for="input-file">Specify a file:</label><br>
+                <input type="file" id="input-file">
+            </div>
+            
+            <div class="step_two main_side">
+                <p>Copy the text inside of here: </p>
+                <textarea id="content-target"></textarea>
+            </div>
+
+            <div class="step_three main_side">
+                <p>Go Here and paste the coppied text: <a href="https://translate.google.com/?hl=en&tab=TT&sl=en&tl=ja&op=translate" target="_a">Translate English to Japanese</a></p>
+            </div>
+            
+            <div class="step_four main_side">
+                <p>Paste Japanese</p>
+                
+                <textarea id="paste"></textarea>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script src="script.js"></script>
+  </body>
+</html>
